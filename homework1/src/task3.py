@@ -1,6 +1,5 @@
 def check_sign(x: int):
     """Determines if 'x' is positive, negative, or zero"""
-    
     if x < 0:
         return "negative"
     elif x > 0:
@@ -11,7 +10,7 @@ def check_sign(x: int):
 
 def is_prime(x: int):
     """Checks if a number is prime"""
-
+    
     if x <= 1:
         return False
 
