@@ -22,7 +22,6 @@ def test_invalid_discounts():
     with pytest.raises(ValueError):
         task4.calculate_discount(100, 150)
 
-
+# Run tests
 if __name__ == "__main__":
-    test_valid_discounts()
-    test_invalid_discounts()
+    pytest.main([__file__, "-v"])

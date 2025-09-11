@@ -1,6 +1,7 @@
 from contextlib import redirect_stdout
 from io import StringIO
 from src import task1
+import pytest
 import sys
 
 # Make sure output matches
@@ -13,4 +14,4 @@ def test_output():
 
 # Run test
 if __name__ == "__main__":
-    test_output()
+    pytest.main([__file__, "-v"])

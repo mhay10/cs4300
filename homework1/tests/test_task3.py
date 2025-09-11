@@ -38,7 +38,4 @@ def test_sum_range():
 
 # Run tests
 if __name__ == "__main__":
-    test_num_signs()
-    test_prime_check()
-    test_primes()
-    test_sum_range()
+    pytest.main([__file__, "-v"])

@@ -17,4 +17,4 @@ def test_datatypes(key, expected_type):
 
 # Run tests
 if __name__ == "__main__":
-    test_datatypes()
+    pytest.main([__file__, "-v"])

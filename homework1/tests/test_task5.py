@@ -35,8 +35,6 @@ def test_student_db():
         assert type(sid) == str
         assert sid.startswith("S")
 
+# Run tests
 if __name__ == "__main__":
-    test_book_list()
-    test_book_slice()
-    test_student_db()
-
+    pytest.main([__file__, "-v"])
