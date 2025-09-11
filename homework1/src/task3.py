@@ -1,4 +1,4 @@
-def check_num(x: int):
+def check_sign(x: int):
     if x < 0:
         return "negative"
     elif x > 0:
@@ -8,7 +8,7 @@ def check_num(x: int):
 
 
 def is_prime(x: int):
-    if x == 1:
+    if x <= 1:
         return False
 
     for i in range(2, x):
