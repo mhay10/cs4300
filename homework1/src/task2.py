@@ -10,4 +10,4 @@ def get_datatypes():
 
 
 if __name__ == "__main__":
-    print(get_datatypes())
+    print("Datatype examples:", get_datatypes())

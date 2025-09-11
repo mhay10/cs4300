@@ -34,3 +34,10 @@ def get_student_db():
         "Natalija": "S008",
     }
     return students
+
+if __name__ == "__main__":
+    books = get_favorite_books()
+    print("Favorite books:", books)
+    print("First 3 books:", get_first_3_books(books))
+
+    print("Student DB:", get_student_db())
