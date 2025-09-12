@@ -28,3 +28,13 @@ def multiply_matrices(m1: np.ndarray, m2: np.ndarray):
     # Multiply the matrices
     result = np.matmul(m1, m2)
     return result
+
+if __name__ == "__main__":
+    m1 = np.array([[1, 2], [3, 4]])
+    print("Matrix 1:\n", m1)
+
+    m2 = np.array([[5, 6], [7, 8]])
+    print("\nMatrix 2:\n", m2)
+
+    result = multiply_matrices(m1, m2)
+    print("\nResult:\n", result)

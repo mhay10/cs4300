@@ -8,3 +8,8 @@ def calculate_discount(price, discount):
     # Subtract discount amount from price
     final_price = price - (price * (discount / 100))
     return final_price
+
+if __name__ == "__main__":
+    price = float(input("Enter price: "))
+    discount = float(input("Enter discount percentage: "))
+    print(f"Final price: {calculate_discount(price, discount)}")

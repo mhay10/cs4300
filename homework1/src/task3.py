@@ -10,7 +10,7 @@ def check_sign(x: int):
 
 def is_prime(x: int):
     """Checks if a number is prime"""
-    
+
     if x <= 1:
         return False
 
@@ -43,7 +43,7 @@ def add_nums():
     """Calculates sum of all numbers from 1 to 100"""
 
     total = 0
-    
+
     # Loop from 1 to 100 and add to total
     num = 1
     while num <= 100:
@@ -51,3 +51,10 @@ def add_nums():
         num += 1
 
     return total
+
+
+if __name__ == "__main__":
+    print("Sign of -3:", check_sign(-3))
+    print("Is 17 prime?", is_prime(17))
+    print("First 10 primes:", generate_primes())
+    print("Sum of all numbers from 1 to 100:", add_nums())
