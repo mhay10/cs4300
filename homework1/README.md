@@ -24,10 +24,24 @@ Each task is a separate Python file in the `src` folder and has a corresponding 
     python3 -m pip install pytest numpy
     ```
 
+## Running the tasks
+
+From the `homework1` folder, run the following command to run each task:
+
+```bash
+python3 -m src.task[number]
+```
+
 ## Running the tests
 
 From the `homework1` folder, run the following command to run each test file:
 
 ```bash
-PYTHONPATH=. python3 tests/test_task[number].py
+python3 -m tests.test_task[number]
+```
+
+To run all tests, run the following command:
+
+```bash
+python3 -m pytest tests/ -v
 ```
