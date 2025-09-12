@@ -14,7 +14,7 @@ Each task is a separate Python file in the `src` folder and has a corresponding 
 2. Create a virtual environment and activate it
 
     ```bash
-    python -m venv venv --system-site-packages
+    python3 -m venv venv --system-site-packages
     source venv/bin/activate
     ```
 
