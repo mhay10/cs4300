@@ -23,6 +23,7 @@ class BookingSerializer(serializers.ModelSerializer):
         fields = ["id", "movie", "movie_title", "seat", "seat_number", "username", "booking_date"]
         read_only_fields = ["booking_date"]
 
+    # Check if seat is available before creating a booking
     def create(self, validated_data):
         seat = validated_data["seat"]
         if not seat.status:

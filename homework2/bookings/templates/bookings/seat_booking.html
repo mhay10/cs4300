@@ -17,7 +17,7 @@
 <div class="row">
     {% for seat in seats %}
     <div class="col-3 mb-2">
-        {% if seat.status == 'available' %}
+        {% if seat.status %}
         <!-- Form to book this seat -->
         <form method="post">
             {% csrf_token %}
