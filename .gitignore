@@ -1,5 +1,6 @@
 # Created by https://gitignore.org
 # Python.gitignore
+*.zip
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
