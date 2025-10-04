@@ -50,7 +50,7 @@ python manage.py test
 
 ## AI Usage in Development
 
-I used Claude a lot throughout the development of this project, as I am brand new to Django. I asked for a beginner's guide to building the web application based on the PDF provided, and Claude provided code examples for models, views, serializers, and templates. I used the provided code as a starting point and made changes such as changing the seat availability status and using custom HTML templates. 
+I used Claude a decent amount throughout the development of this project, as I am brand new to Django. I asked for a beginner's guide to help with building the web application based on the PDF provided, and Claude provided code examples for models, views, serializers, and templates. I used the provided code as a starting point and made changes such as debloating the examples, changing the parameters to better suit my needs, and using custom HTML templates. 
 
-I also asked Claude to help me with what tests to write for the API and HTML views, and how to write a Django test case. When I was writing tests for the API, I ran into a CSRF 403 error when trying to book a movie seat. I asked Claude for help with this, and it helped me add the trusted domains to the settings file.
+I also asked Claude to help me with figuring out what tests to write for the API view and how to write a Django test case. When I was writing tests for the API, I ran into a CSRF 403 error when trying to book a movie seat. I asked Claude for help with this, and it helped me add the trusted domains to the settings file.
 
